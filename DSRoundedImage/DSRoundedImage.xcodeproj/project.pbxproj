@@ -351,6 +351,7 @@
 				TargetAttributes = {
 					1366D0A71C4D10E000A6D178 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 28665BGXKC;
 					};
 					1366D0C01C4D10E000A6D178 = {
 						CreatedOnToolsVersion = 7.2;
@@ -579,11 +580,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DSRoundedImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dasheng.DSRoundedImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -591,11 +595,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DSRoundedImage/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dasheng.DSRoundedImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -666,6 +673,7 @@
 				1366D0D71C4D10E000A6D178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1366D0D81C4D10E000A6D178 /* Build configuration list for PBXNativeTarget "DSRoundedImageTests" */ = {
 			isa = XCConfigurationList;
@@ -674,6 +682,7 @@
 				1366D0DA1C4D10E000A6D178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1366D0DB1C4D10E000A6D178 /* Build configuration list for PBXNativeTarget "DSRoundedImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -682,6 +691,7 @@
 				1366D0DD1C4D10E000A6D178 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
