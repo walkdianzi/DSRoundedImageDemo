@@ -22,12 +22,12 @@ DSRoundImageView *imageView = [[DSRoundImageView alloc]initWithFrame:CGRectMake(
 
 UIImageView *imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
 NSURL *url = [NSURL URLWithString:@"http://pic.meizitu.com/wp-content/uploads/2015a/11/11/01.jpg"];
-[imageView setIsRound:YES withSize:CGSizeMake(kHeight, kHeight)];
+[imageView setIsRound:YES withSize:CGSizeMake(50, 50)];
 [imageView sd_setImageWithURL:url];
 ```
-修改SDWebImage这个库里的代码，根据[imageView setIsRound:YES withSize:CGSizeMake(kHeight, kHeight)];这句
+修改SDWebImage这个库里的代码，根据[imageView setIsRound:YES withSize:CGSizeMake(50, 50)];这句
 使存入缓存内的是已经绘制为圆角的image。
-SDWebImage中新加入的代码为有 //!!!: 绘制圆角 注释部分的代码
+SDWebImage中新加入的代码为有 **//!!!: 绘制圆角** 注释部分的代码
 
 #最后
 - 如果我的项目对你有帮助欢迎 Star  
