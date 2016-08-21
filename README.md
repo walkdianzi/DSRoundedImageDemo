@@ -9,7 +9,7 @@ Best Rounded Image without Off-Screen Rendering
 2. SDWebImage中Core Graphics绘制圆角并缓存
 
 #如何使用
-1. 圆角覆盖方式
+- 圆角覆盖方式
 
 ```objectivec
 #import "DSRoundImageView.h"
@@ -17,7 +17,7 @@ Best Rounded Image without Off-Screen Rendering
 DSRoundImageView *imageView = [[DSRoundImageView alloc]initWithFrame:CGRectMake(100, 100, 50, 50)];
 ```
 
-2. SDWebImage中Core Graphics绘制圆角并缓存方式
+- SDWebImage中Core Graphics绘制圆角并缓存方式
 
 ```objectivec
 #import "UIImageView+WebCache.h"
