@@ -8,6 +8,7 @@
 
 #import "RoundSDWebImageViewController.h"
 #import "UIImageView+WebCache.h"
+#import "UIImageView+DSRoundWebCache.h"
 
 #define kHeight 40
 
@@ -49,8 +50,8 @@
         
         UIImageView *imageView = [cell viewWithTag:i];
         NSURL *url = [NSURL URLWithString:[self urlStr:indexPath.row]];
-        [imageView setIsRound:YES withSize:CGSizeMake(kHeight, kHeight)];
-        [imageView sd_setImageWithURL:url];
+//        [imageView setIsRound:YES withSize:CGSizeMake(kHeight, kHeight)];
+        [imageView sd_setImageWithURL:url placeholderImage:nil radiusScale:0.5];
     }
     
     return cell;
